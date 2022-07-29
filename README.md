@@ -1,2 +1,5 @@
 # ATMega_2560_WSS_Lib
 The library for the AT Mega 2560 Custom Arduino Board from WSS
+
+## The Beta Version
+This version has all features but is still not guaranteed to work
