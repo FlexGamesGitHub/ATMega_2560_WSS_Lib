@@ -5,7 +5,7 @@ void init(void) {
     std_init({});
 }
 
-void main(void) {
+void main(void) {  // Runs once
     init();
     
     while (1) {
