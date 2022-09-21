@@ -5,5 +5,9 @@ void init(void) { // Runs once
 }
 
 void main(void) { // Runs infinite
+    init();
     
+    while (1) {
+        
+    }
 }
