@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 3000" background-color="transparent">
+	<!-- Ring -->
+  <path d="M1500 0a100 100 90 000 3000 100 100 90 000-3000" fill="#3BD5CB"/>
+	<!-- 2506 -->
+	<path d="M600 500l200-200 200 200-400 300 400 0" fill="none" stroke="black" stroke-width="50"/>
+	<path d="M1400 300l-300 0 0 200 200-100 100 100 0 200-200 100-100-100" fill="none" stroke="black" stroke-width="50"/>
+	<path d="M2200 300l-300 200 200 300 300-200-200-300-100 500" fill="none" stroke="black" stroke-width="50"/>
+	<path d="M1800 300l-300 100 0 300L1600 800l200-100 0-200-200 100" fill="none" stroke="black" stroke-width="50"/>
+	<!-- Platine -->
+	<path d="M400 900l2200 0 0 1200-2200 0z" fill="#16420C"/>
+	<!-- FileX -->
+	<path d="M1200 1100l-600 0 0 400 200 100-100 400m100-600 300 0" fill="none" stroke="#CFB417" stroke-width="20"/>
+	<path d="M1400 1200l200 0m-100 0 0 100-100 0m100 0 100 0m-200-200 200 0"  fill="none" stroke="#CFB417" stroke-width="20"/>
+	<path d="M1400 1400l0 200 100 100 100-100" fill="none" stroke="#CFB417" stroke-width="20"/>
+	<path d="M1500 1900l100 0-100-100-100 100 100 100" fill="none" stroke="#CFB417" stroke-width="20"/>
+	<path d="M2400 1100l-200 300m-200 300-200 300m0-900 600 900" fill="none" stroke="#CFB417" stroke-width="20"/>
+	<!-- LIB -->
+	<path d="M800 2300l0 400 300 0-100-100-100 0 0-300z" fill="#222222"/>
+	<path d="M1200 2300l600 0 0 100-200 100-200 0-200-100z" fill="#222222"/>
+	<path d="M1600 2500l0 100 100 0 100 100-600 0 100-100 100 0 0-100z" fill="#222222"/>
+	<path d="M1900 2300l200 0a100 100 90 010 200 100 100 90 010 200l-200 0z" fill="#222222"/>
+</svg>
