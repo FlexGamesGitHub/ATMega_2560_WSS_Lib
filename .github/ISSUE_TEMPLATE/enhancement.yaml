@@ -1,0 +1,60 @@
+name: Enhancement
+description: To suggest an idea
+title: "[ENH] TITLE"
+labels: ["enhancement"]
+assignees:
+  - cd-FileX
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before creating an issue:
+          - Only create one if it does not exist (refer to [Issues](https://github.com/cd-FileX/FileX_2560_WSS_Lib/issues))
+            - If one is just similar, leave a comment below it
+          - Don't forget to edit the title
+  - type: dropdown
+    attributes: 
+      label: "Documentation, Library or Preset?"
+      options: 
+        - Docs
+        - Library
+        - Preset
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Is a bug report connected to this?"
+      description: "If yes please enter below"
+      placeholder: "#123"
+  - type: markdown
+    attributes:
+      value: "## THE ENHANCEMENT"
+  - type: textarea
+    attributes:
+      label: "Description of your idea"
+      description: "A clear and precise description of what you are dreaming about"
+      placeholder: "Bunny Girl Senpai"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Alternatives"
+      description: "If there are any alternatives of your idea, enter them here"  
+  - type: markdown
+    attributes:
+      value: "## ADDITIONAL INFORMATION & CHECKOUT"
+  - type: textarea
+    attributes:
+      label: "Additional Context"
+      description: "Everything else that is important"
+  - type: checkboxes
+    attributes: 
+      label: Checkout
+      options:
+        - label: "I have changed the title"
+          required: true
+        - label: "I have filled out everything required"
+          required: true
+        - label: "I have checked for duplicates"
+          required: true
+  
