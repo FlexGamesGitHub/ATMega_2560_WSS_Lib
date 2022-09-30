@@ -1,0 +1,111 @@
+name: Bug Report
+description: Report a bug you encountered here
+title: "[BUG] TITLE"
+labels: ["bug"]
+assignees:
+  - cd-FileX
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Important Notices before creating a bug:
+          - Please only report if it wasn't already (refer to [Issues](https://github.com/cd-FileX/FlexBot/issues?q=is%3Aopen+is%3Aissue+label%3Abug))
+          - Please change the title
+          - Fill out everything required
+  - type: dropdown
+    attributes: 
+      label: "Documentation, Library or Preset?"
+      options: 
+        - Docs
+        - Lib
+        - Preset
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: "Is a enhancement conntected to this?"
+      description: "If so please mention it here"
+      placeholder: "#123"
+      value: "No"
+  - type: markdown
+    attributes:
+      value: "## THE BUG"
+  - type: textarea
+    attributes:
+      label: "Reproduce it"
+      description: "Clear steps to reproduce"
+      render: cfg
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "What should happen and happened"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Screenshots
+      description: "If applicable and possible attach some here"
+  - type: markdown
+    attributes:
+      value: "## CLIENT OR IDE INFORMATION"
+  - type: input
+    attributes:
+      label: "Version of the Library or the documentation"
+      description: "The library version is from 0.1.0 at the top, the documentation version at the most bottom" 
+      placeholder: "Current: Lib 0.0.3, Docs 0.0.0"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Client
+      description: "The used client or IDE"
+      options: 
+        - Arduino IDE
+        - CodeVisionAVR
+        - Firefox
+        - Opera
+        - "Opera GX"
+        - "Microsoft Edge"
+        - "Internet Explorer"
+        - Ecosia
+        - "Other (Enter below)"
+    validations: 
+      required: true
+  - type: input
+    attributes:
+      label: "Other Client"
+  - type: input
+    attributes:
+      label: "Client Versions"
+      description: "Enter the Version of your Client and Operating System"
+      placeholder: "Opera GX LVL4, Windows 10"
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "Modifications"
+      description: "If you used other libraries or modifications which could be related to the problem, enter them here"
+      render: yaml
+      value: "None"
+  - type: markdown
+    attributes:
+      value: "## ADDITIONAL INFORMATION & CHECKOUT"
+  - type: textarea
+    attributes: 
+      label: "Additional Context"
+      description: "Enter everything that could be important too"
+  - type: checkboxes
+    attributes: 
+      label: Checkout
+      options:
+        - label: "I have changed the title"
+          required: true
+        - label: "I have filled out all required fields"
+          required: true
+        - label: "I have checked for duplicates"
+          required: true
