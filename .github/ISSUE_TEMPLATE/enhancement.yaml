@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         ## Before creating an issue:
-          - Only create one if it does not exist (refer to [Issues](https://github.com/cd-FileX/FileX_2560_WSS_Lib/issues?q=is%3Aopen+is%3Aissue+label%3Averbesserung))
+          - Only create one if it does not exist (refer to [Issues](https://github.com/cd-FileX/FileX_2560_WSS_Lib/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement))
             - If one is just similar, leave a comment below it
           - Don't forget to edit the title
   - type: dropdown
