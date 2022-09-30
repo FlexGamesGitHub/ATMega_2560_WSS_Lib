@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         ## Important Notices before creating a bug:
-          - Please only report if it wasn't already (refer to [Issues](https://github.com/cd-FileX/FlexBot/issues?q=is%3Aopen+is%3Aissue+label%3Abug))
+          - Please only report if it wasn't already (refer to [Issues](https://github.com/cd-FileX/FileX_2560_WSS_Lib/issues?q=is%3Aopen+is%3Aissue+label%3Abug))
           - Please change the title
           - Fill out everything required
   - type: dropdown
